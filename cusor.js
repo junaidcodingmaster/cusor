@@ -6,7 +6,7 @@ class Cusor {
       this.body = Bodies.rectangle(x,y,width,height,options);
       this.width = width;
       this.height = height;
-this.image = loadImage("cusor.png");
+this.image = loadImage("https://junaidcodingmaster.github.io/cusor/cusor.png");
       World.add(world, this.body);
     }
     
